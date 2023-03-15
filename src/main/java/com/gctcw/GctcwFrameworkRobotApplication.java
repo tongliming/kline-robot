@@ -7,6 +7,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import java.time.ZoneId;
 import java.util.TimeZone;
 
+/**
+ * 程序启动入口
+ */
 @SpringBootApplication
 @EnableScheduling
 public class GctcwFrameworkRobotApplication {
