@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gctcw.persistent.mapper.RobotSetKlineDataMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.gctcw.persistent.entity.RobotSetKlineData">
+        <id column="id" property="id" />
+        <result column="kline" property="kline" />
+        <result column="kdate" property="kdate" />
+        <result column="pricePencent" property="pricePencent" />
+        <result column="symbol" property="symbol" />
+        <result column="createtime" property="createtime" />
+        <result column="updated_at" property="updatedAt" />
+    </resultMap>
+
+</mapper>

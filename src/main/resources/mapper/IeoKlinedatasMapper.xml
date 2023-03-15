@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gctcw.persistent.mapper.IeoKlinedatasMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.gctcw.persistent.entity.IeoKlinedatas">
+        <id column="id" property="id" />
+        <result column="pid" property="pid" />
+        <result column="rate" property="rate" />
+        <result column="price" property="price" />
+        <result column="ctime" property="ctime" />
+        <result column="high" property="high" />
+        <result column="low" property="low" />
+        <result column="vol" property="vol" />
+        <result column="close" property="close" />
+        <result column="types" property="types" />
+    </resultMap>
+
+</mapper>
